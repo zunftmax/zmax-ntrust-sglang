@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+"""Keep the per-boot credential out of the upstream process command line."""
+import json
+import os
+from pathlib import Path
+
+
+def main():
+    key = (Path(os.environ['CREDENTIALS_DIRECTORY']) / 'api-key').read_text().strip()
+    if len(key) != 64 or any(c not in '0123456789abcdef' for c in key):
+        raise SystemExit('Invalid per-boot credential')
+    os.umask(0o077)
+    config = Path('/run/ntrust-inference/server.yaml')
+    # JSON is a YAML subset accepted by upstream's safe YAML parser.
+    # The systemd RuntimeDirectory is private, RAM-backed and removed on stop.
+    config.write_text(json.dumps({'api-key': key}))
+    python = '/opt/ntrust/venv/bin/python'
+    os.execv(python, [python, '-m', 'sglang.launch_server', '--config', str(config),
+        '--model-path', '/var/lib/ntrust/model', '--served-model-name', 'model',
+        '--host', '127.0.0.1', '--port', '8080', '--load-format', 'safetensors',
+        '--tp-size', '1', '--context-length', '8192', '--max-running-requests', '4',
+        '--mem-fraction-static', '0.85', '--disable-radix-cache',
+        '--log-level', 'error', '--log-level-http', 'error'])
+
+
+if __name__ == '__main__':
+    main()
