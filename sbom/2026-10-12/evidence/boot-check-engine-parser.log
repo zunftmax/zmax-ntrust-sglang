@@ -1,0 +1,2 @@
+PASS: CUDA SM90a and Python-extension headers compile without a GPU
+PASS: installed upstream parser accepts the launcher and privacy options; no model/GPU executed

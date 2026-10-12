@@ -1,0 +1,78 @@
+test "$(uname -s)" = Linux
+test "$(uname -m)" = x86_64
+test -r /dev/kvm -a -w /dev/kvm
+bash image/inventory.sh
+Installed: 322 Debian packages and 207 Python distributions; enumerating native-file candidates
+Inspecting 164964 paths for ELF headers
+Examining path 2500/164964; 69 ELF files inventoried
+Hashing opt/ntrust/venv/lib/python3.12/site-packages/sgl_kernel/flash_ops.abi3.so (1,122,615,224 bytes)
+Examining path 5000/164964; 179 ELF files inventoried
+Examining path 7500/164964; 185 ELF files inventoried
+Examining path 10000/164964; 185 ELF files inventoried
+Examining path 12500/164964; 187 ELF files inventoried
+Examining path 15000/164964; 672 ELF files inventoried
+Examining path 17500/164964; 1951 ELF files inventoried
+Examining path 20000/164964; 3236 ELF files inventoried
+Examining path 22500/164964; 4473 ELF files inventoried
+Examining path 25000/164964; 5695 ELF files inventoried
+Examining path 27500/164964; 6972 ELF files inventoried
+Examining path 30000/164964; 8199 ELF files inventoried
+Examining path 32500/164964; 9474 ELF files inventoried
+Examining path 35000/164964; 10764 ELF files inventoried
+Examining path 37500/164964; 11996 ELF files inventoried
+Examining path 40000/164964; 13223 ELF files inventoried
+Examining path 42500/164964; 14518 ELF files inventoried
+Examining path 45000/164964; 15784 ELF files inventoried
+Examining path 47500/164964; 17032 ELF files inventoried
+Examining path 50000/164964; 18292 ELF files inventoried
+Examining path 52500/164964; 19545 ELF files inventoried
+Examining path 55000/164964; 20773 ELF files inventoried
+Examining path 57500/164964; 21974 ELF files inventoried
+Examining path 60000/164964; 23241 ELF files inventoried
+Examining path 62500/164964; 24453 ELF files inventoried
+Examining path 65000/164964; 25716 ELF files inventoried
+Examining path 67500/164964; 26948 ELF files inventoried
+Examining path 70000/164964; 28251 ELF files inventoried
+Examining path 72500/164964; 29491 ELF files inventoried
+Examining path 75000/164964; 30749 ELF files inventoried
+Examining path 77500/164964; 31961 ELF files inventoried
+Examining path 80000/164964; 33203 ELF files inventoried
+Examining path 82500/164964; 34442 ELF files inventoried
+Examining path 85000/164964; 35680 ELF files inventoried
+Examining path 87500/164964; 36920 ELF files inventoried
+Examining path 90000/164964; 38129 ELF files inventoried
+Examining path 92500/164964; 39400 ELF files inventoried
+Examining path 95000/164964; 40664 ELF files inventoried
+Examining path 97500/164964; 41918 ELF files inventoried
+Examining path 100000/164964; 42900 ELF files inventoried
+Examining path 102500/164964; 42900 ELF files inventoried
+Examining path 105000/164964; 42900 ELF files inventoried
+Hashing opt/ntrust/venv/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so (469,850,385 bytes)
+Hashing opt/ntrust/venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so (438,418,417 bytes)
+Examining path 107500/164964; 42915 ELF files inventoried
+Examining path 110000/164964; 42915 ELF files inventoried
+Examining path 112500/164964; 42915 ELF files inventoried
+Examining path 115000/164964; 42915 ELF files inventoried
+Examining path 117500/164964; 42915 ELF files inventoried
+Examining path 120000/164964; 42915 ELF files inventoried
+Examining path 122500/164964; 42936 ELF files inventoried
+Hashing opt/ntrust/venv/lib/python3.12/site-packages/triton/_C/libtriton.so (461,559,216 bytes)
+Examining path 125000/164964; 42998 ELF files inventoried
+Hashing opt/ntrust/venv/lib/python3.12/site-packages/nvidia/cu13/lib/libcufft.so.12 (286,542,352 bytes)
+Hashing opt/ntrust/venv/lib/python3.12/site-packages/nvidia/cu13/lib/libcublasLt.so.13 (541,607,888 bytes)
+Examining path 127500/164964; 43044 ELF files inventoried
+Examining path 130000/164964; 43058 ELF files inventoried
+Examining path 132500/164964; 43159 ELF files inventoried
+Examining path 135000/164964; 43217 ELF files inventoried
+Examining path 137500/164964; 43343 ELF files inventoried
+Examining path 140000/164964; 43350 ELF files inventoried
+Examining path 142500/164964; 43350 ELF files inventoried
+Examining path 145000/164964; 43350 ELF files inventoried
+Examining path 147500/164964; 43357 ELF files inventoried
+Examining path 150000/164964; 43357 ELF files inventoried
+Examining path 152500/164964; 43361 ELF files inventoried
+Examining path 155000/164964; 43379 ELF files inventoried
+Examining path 157500/164964; 43383 ELF files inventoried
+Examining path 160000/164964; 43384 ELF files inventoried
+Examining path 162500/164964; 43387 ELF files inventoried
+Inventory: 322 Debian packages, 207 Python distributions, 43396 native ELF files (overlapping package contents)
