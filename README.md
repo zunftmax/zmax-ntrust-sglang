@@ -1,6 +1,6 @@
 # Zmax ntrust · SGLang
 
-A focused VM image for serving SGLang through HTTPS inside a confidential NVIDIA GPU VM. One guest, two disk formats: Azure fixed VHD and GCP raw-disk archive. This repository packages **SGLang 0.5.21**, without another inference engine or remote inference fallback.
+Zmax is proud to support and open source these reference images for trusted and confidential inference and token streaming. This repository is the SGLang image in the ntrust family: a focused VM image for serving SGLang through HTTPS inside a confidential NVIDIA GPU VM. One guest, two disk formats: Azure fixed VHD and GCP raw-disk archive. This repository packages **SGLang 0.5.21**, without another inference engine or remote inference fallback.
 
 **Status:** experimental core image. Linux build, Azure/GCP export comparisons, ordinary-VM rejection and network-policy checks, and installed parser/compiler checks passed. The [dated SBOM, scan and validation evidence](sbom/2026-10-12/README.md) are published with the image hashes and finding dispositions. Cloud import, confidential H100 execution and public ACME issuance have not been validated. Customer verification of the image and TLS identity is deferred. Do not interpret a successful local build as a confidential-computing proof.
 
