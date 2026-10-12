@@ -1,0 +1,6 @@
+2026-10-12T19:10:23Z	INFO	[vuln] Vulnerability scanning is enabled
+2026-10-12T19:10:32Z	INFO	[python] Licenses acquired from one or more METADATA files may be subject to additional terms. Use `--debug` flag to see all affected packages.
+2026-10-12T19:10:33Z	INFO	Detected OS	family="ubuntu" version="24.04"
+2026-10-12T19:10:33Z	INFO	[ubuntu] Detecting vulnerabilities...	os_version="24.04" pkg_num=299
+2026-10-12T19:10:33Z	INFO	Number of language-specific files	num=1
+2026-10-12T19:10:33Z	INFO	[python-pkg] Detecting vulnerabilities...

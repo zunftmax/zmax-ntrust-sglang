@@ -1,0 +1,72 @@
+test "$(uname -s)" = Linux
+test "$(uname -m)" = x86_64
+test -r /dev/kvm -a -w /dev/kvm
+bash image/inventory.sh
+Installed: 303 Debian packages and 207 Python distributions; enumerating native-file candidates
+Inspecting 164970 paths for ELF headers
+Examining path 2500/164970; 69 ELF files inventoried
+Examining path 5000/164970; 179 ELF files inventoried
+Examining path 7500/164970; 185 ELF files inventoried
+Examining path 10000/164970; 185 ELF files inventoried
+Examining path 12500/164970; 187 ELF files inventoried
+Examining path 15000/164970; 672 ELF files inventoried
+Examining path 17500/164970; 1951 ELF files inventoried
+Examining path 20000/164970; 3237 ELF files inventoried
+Examining path 22500/164970; 4474 ELF files inventoried
+Examining path 25000/164970; 5695 ELF files inventoried
+Examining path 27500/164970; 6972 ELF files inventoried
+Examining path 30000/164970; 8199 ELF files inventoried
+Examining path 32500/164970; 9475 ELF files inventoried
+Examining path 35000/164970; 10764 ELF files inventoried
+Examining path 37500/164970; 11996 ELF files inventoried
+Examining path 40000/164970; 13224 ELF files inventoried
+Examining path 42500/164970; 14519 ELF files inventoried
+Examining path 45000/164970; 15784 ELF files inventoried
+Examining path 47500/164970; 17033 ELF files inventoried
+Examining path 50000/164970; 18293 ELF files inventoried
+Examining path 52500/164970; 19545 ELF files inventoried
+Examining path 55000/164970; 20774 ELF files inventoried
+Examining path 57500/164970; 21974 ELF files inventoried
+Examining path 60000/164970; 23241 ELF files inventoried
+Examining path 62500/164970; 24454 ELF files inventoried
+Examining path 65000/164970; 25716 ELF files inventoried
+Examining path 67500/164970; 26949 ELF files inventoried
+Examining path 70000/164970; 28252 ELF files inventoried
+Examining path 72500/164970; 29491 ELF files inventoried
+Examining path 75000/164970; 30749 ELF files inventoried
+Examining path 77500/164970; 31962 ELF files inventoried
+Examining path 80000/164970; 33204 ELF files inventoried
+Examining path 82500/164970; 34442 ELF files inventoried
+Examining path 85000/164970; 35680 ELF files inventoried
+Examining path 87500/164970; 36921 ELF files inventoried
+Examining path 90000/164970; 38129 ELF files inventoried
+Examining path 92500/164970; 39401 ELF files inventoried
+Examining path 95000/164970; 40665 ELF files inventoried
+Examining path 97500/164970; 41919 ELF files inventoried
+Examining path 100000/164970; 42900 ELF files inventoried
+Examining path 102500/164970; 42900 ELF files inventoried
+Examining path 105000/164970; 42900 ELF files inventoried
+Examining path 107500/164970; 42915 ELF files inventoried
+Examining path 110000/164970; 42915 ELF files inventoried
+Examining path 112500/164970; 42915 ELF files inventoried
+Examining path 115000/164970; 42915 ELF files inventoried
+Examining path 117500/164970; 42915 ELF files inventoried
+Examining path 120000/164970; 42915 ELF files inventoried
+Examining path 122500/164970; 42936 ELF files inventoried
+Examining path 125000/164970; 42998 ELF files inventoried
+Examining path 127500/164970; 43044 ELF files inventoried
+Examining path 130000/164970; 43058 ELF files inventoried
+Examining path 132500/164970; 43159 ELF files inventoried
+Examining path 135000/164970; 43217 ELF files inventoried
+Examining path 137500/164970; 43343 ELF files inventoried
+Examining path 140000/164970; 43350 ELF files inventoried
+Examining path 142500/164970; 43350 ELF files inventoried
+Examining path 145000/164970; 43350 ELF files inventoried
+Examining path 147500/164970; 43357 ELF files inventoried
+Examining path 150000/164970; 43357 ELF files inventoried
+Examining path 152500/164970; 43361 ELF files inventoried
+Examining path 155000/164970; 43379 ELF files inventoried
+Examining path 157500/164970; 43383 ELF files inventoried
+Examining path 160000/164970; 43384 ELF files inventoried
+Examining path 162500/164970; 43387 ELF files inventoried
+Inventory: 303 Debian packages, 207 Python distributions, 43402 native ELF files (overlapping package contents)

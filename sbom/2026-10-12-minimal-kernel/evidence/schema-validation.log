@@ -1,0 +1,5 @@
+PASS: sbom.cdx.json CycloneDX 1.6 schema; unique component references
+SHA256: 4c1f55ee55f3c9d603d86cb137a445e45ef4a2ace8c3dd10d3eb986869d185bb
+PASS: sbom.syft.cdx.json CycloneDX 1.7 schema; unique component references
+SHA256: 977aa564ee477116dfae52885307b9af709d2e28ecc12a64db9a36eb9bcbd41f
+PASS: package versions and every scoped native ELF hash reconcile with inventory

@@ -1,0 +1,3 @@
+PASS: actual CPU Safetensors save/load works; no GPU/model inference claimed
+PASS: CUDA SM90a and Python-extension headers compile without a GPU
+PASS: installed upstream parser accepts the launcher and privacy options; no model/GPU executed
